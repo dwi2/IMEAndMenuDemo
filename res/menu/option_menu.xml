@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:id="@+id/close" android:title="關閉程式"
-		android:icon="@drawable/delete_icon">
-	</item>
-	<item android:id="@+id/submenu" android:title="密碼設定">
+	<item android:id="@+id/submenu" android:title="密碼顯示設定">
 		<menu>
 			<group android:id="@+id/password_visibility" android:visible="true"
 				android:checkableBehavior="single">
@@ -13,5 +10,10 @@
 				</item>
 			</group>
 		</menu>
+	</item>
+	<item android:id="@+id/close" android:title="離開選單">
+	</item>
+	<item android:id="@+id/exit_app" android:title="關閉程式"
+		android:icon="@drawable/delete_icon">
 	</item>
 </menu>
